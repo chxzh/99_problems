@@ -22,23 +22,23 @@
     - check palindrome:
         - Find out whether a list is a palindrome. A palindrome can be read forward or backward
         - "'madamimadam'"
-        - True
-	- flatten:
-		- Flatten a nested list structure. Transform a list, possibly holding lists as elements into a `flat' list by replacing each list with its elements (recursively).
-		- "[a,[b,[c,d],e]]"
-		- "[a,b,c,d,e]"
-	- deduplicate:
-		- Eliminate consecutive duplicates of list elements. If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
-		- "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
-		- "[a,b,c,a,d,e]"
-	- pack dupilicates:
-		- Pack consecutive duplicates of list elements into sublists. If a list contains repeated elements they should be placed in separate sublists
-		- "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
-		- "[[a,a,a,a],[b],[c,c],[a,a],[d],[e,e,e,e]]"
-	- count dupilicates:
-		- Run-length encoding of a list. Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as lists (N E) where N is the number of duplicates of the element E.
-		- "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
-		- "[(4,a),(1,b),(2,c),(2,a),(1,d),(4,e)]"
+        - "true"
+    - flatten:
+        - Flatten a nested list structure. Transform a list, possibly holding lists as elements into a `flat' list by replacing each list with its elements (recursively).
+        - "[a,[b,[c,d],e]]"
+        - "[a,b,c,d,e]"
+    - deduplicate:
+        - Eliminate consecutive duplicates of list elements. If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
+        - "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
+        - "[a,b,c,a,d,e]"
+    - pack dupilicates:
+        - Pack consecutive duplicates of list elements into sublists. If a list contains repeated elements they should be placed in separate sublists
+        - "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
+        - "[[a,a,a,a],[b],[c,c],[a,a],[d],[e,e,e,e]]"
+    - count dupilicates:
+        - Run-length encoding of a list. Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as lists (N E) where N is the number of duplicates of the element E.
+        - "[a,a,a,a,b,c,c,a,a,d,e,e,e,e]"
+        - "[(4,a),(1,b),(2,c),(2,a),(1,d),(4,e)]"
 - Lists, continued:
 - Lists again:
 - Arithmetic:
